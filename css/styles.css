@@ -13,6 +13,7 @@ body {
     background-image: url("../img/fondoheader.png");
     background-size: cover;
     height: 80vh;
+    border-bottom: 1rem solid #1e2b38f1;
 }
 .cabecera .menu {
     height: 10%;
