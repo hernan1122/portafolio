@@ -109,10 +109,14 @@ body {
     font-size: 1.3rem;
     text-align: center;
 }
-main .conteiner {
+main {
     background-image: url("../img/fondo.jpg");
     background-size: cover;
     padding-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 main .conteiner .conteiner-jobs {
     height: 10rem;
@@ -180,11 +184,90 @@ main .conteiner .fila-img-2 {
     color: #fff;
     text-align: center;
     font-size: 1.8rem;
+    margin-bottom: 4rem;
 }
 .imgDescripcion3 {
     color: #fff;
     text-align: center;
     font-size: 1.8rem;
+}
+main .conteiner-form {
+    background-color: #ffffff67;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 2rem;
+}
+main .conteiner-form:hover {
+    box-shadow: 0px 0px 29px 9px rgba(0,0,0,0.54);
+    border: 0.2rem solid #f0f6f84f;
+}
+.parrafoContacts {
+    color: #fff;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 2.1rem;
+    border-bottom: 0.1rem solid #fff;
+    width: 85%;
+}
+
+.conteinerForm1 {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.conteinerForm1 input{
+    margin: 1.1rem;
+}
+
+.conteinerForm2 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1.9rem;
+}
+
+.name {
+    padding: 1rem;
+    color: #a4a4a4;
+    border: 0.15rem solid #a4a4a4;
+    border-radius: 5px;
+}
+
+.mail {
+    padding: 1rem;
+    color: #a4a4a4;
+    border: 0.15rem solid #a4a4a4;
+    border-radius: 5px;
+}
+
+.message {
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 4.5rem;
+    width: 30vw;
+    color: #a4a4a4;
+    border: 0.15rem solid #a4a4a4;
+    border-radius: 5px;
+}
+
+.conteinerBoton {
+    display: flex;
+    justify-content: center;
+}
+
+.botonSend {
+    padding: 1rem;
+    background-color: #3895ea;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 9vw;
 }
 .conteiner-footer {
     height: 16vh;
@@ -378,5 +461,24 @@ main .conteiner .fila-img-2 {
     .img-4 {
         width: 33rem;
         border-radius: 10px;
+    }
+    main .conteiner-form {
+        width: 33rem;
+    }
+    .conteinerForm1 {
+        flex-direction: column;
+    }
+    .parrafoContacts {
+        padding-top: 1rem;
+        font-size: 2.5rem;
+    }
+    .conteinerForm1 input {
+        width: 24rem;
+    }
+    .message {
+        width: 24rem;
+    }
+    .botonSend {
+        width: 12rem;
     }
 }
