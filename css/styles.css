@@ -334,3 +334,46 @@ main .conteiner .fila-img-2 {
         font-size: 3rem;
     }
 }
+
+@media (max-width: 370px) {
+    .info-header .info-conteiner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 33rem;
+        height: 34rem;
+    }
+    .info-header .info-conteiner .conteiner-nombre {
+        border-left: none;
+        border-top: 0.1rem solid #fff;
+        border-bottom: 0.1rem solid #fff;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        width: 94%;
+    }
+    .info-header .info-conteiner .conteiner-about {
+        border-left: none;
+    }
+    main .conteiner .conteiner-jobs h2 {
+        font-size: 2.5rem;
+    }
+    .img-1 {
+        width: 33rem;
+        border-radius: 10px;
+    }
+    .img-2 {
+        width: 33rem;
+        border-radius: 10px;
+    }
+    .img-3 {
+        width: 33rem;
+        border-radius: 10px;
+    }
+    .img-4 {
+        width: 33rem;
+        border-radius: 10px;
+    }
+}
