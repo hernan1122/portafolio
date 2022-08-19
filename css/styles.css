@@ -344,6 +344,9 @@ main .conteiner .fila-img-2 {
         width: 33rem;
         height: 34rem;
     }
+    .info-header .info-conteiner .conteiner-about:hover {
+        transform: translate(0%, 0%);
+    }
     .info-header .info-conteiner .conteiner-nombre {
         border-left: none;
         border-top: 0.1rem solid #fff;
