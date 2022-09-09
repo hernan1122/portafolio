@@ -421,7 +421,7 @@ main .conteiner-form:hover {
     margin-right: 0px;
   }
   main .conteiner .conteiner-about .about {
-    height: 200px;
+    height: auto;
     padding-left: 0px;
     border-left: none;
   }
