@@ -48,14 +48,12 @@ body {
 }
 .info-header .info-conteiner {
   display: flex;
-  background-color: #f0f6f84f;
-  border-radius: 20px;
-  width: 80rem;
+  /* background-color: #f0f6f84f; */
+  border: 1px solid #fff;
+  width: 40rem;
   height: 18rem;
   margin: 0 auto;
-  padding: 1rem;
-}
-.info-header .info-conteiner:hover {
+  padding: 10px;
   box-shadow: 0px 0px 29px 9px rgba(0, 0, 0, 0.54);
   border: 0.2rem solid #f0f6f84f;
 }
@@ -86,29 +84,7 @@ body {
   color: #fff;
   font-size: 1.3rem;
 }
-.info-header .info-conteiner .conteiner-about {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  border-left: 0.1rem solid #fff;
-  margin-left: 1rem;
-  padding-left: 1rem;
-  transition: 0.3s;
-}
-.info-header .info-conteiner .conteiner-about:hover {
-  transform: translate(-10%, 0%);
-}
-.info-header .info-conteiner .conteiner-about h2 {
-  color: #fff;
-  font-size: 2.5rem;
-}
-.info-header .info-conteiner .conteiner-about p {
-  color: #fff;
-  font-size: 1.3rem;
-  text-align: center;
-}
+
 main {
   background-image: url("../img/fondo.jpg");
   background-size: cover;
@@ -117,6 +93,48 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+main .conteiner section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+.conteiner-about figure img {
+  width: 30rem;
+  margin-right: 40px;
+  border-radius: 10px;
+}
+main .conteiner .conteiner-about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  padding: 20px 40px;
+  border: 1px solid #fff;
+  box-shadow: 0px 0px 29px 9px rgba(0, 0, 0, 0.54);
+  border: 2px solid #f0f6f84f;
+}
+/* main .conteiner .conteiner-about:hover {
+  box-shadow: 0px 0px 29px 9px rgba(0, 0, 0, 0.54);
+  border: 0.2rem solid #f0f6f84f;
+} */
+main .conteiner .conteiner-about .about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 300px;
+  padding-left: 30px;
+  border-left: 2px solid #f0f6f84f;
+}
+main .conteiner .conteiner-about h2 {
+  color: #fff;
+  font-size: 2.5rem;
+}
+main .conteiner .conteiner-about p {
+  color: #fff;
+  font-size: 1.3rem;
+  text-align: center;
 }
 main .conteiner .conteiner-jobs {
   height: 10rem;
@@ -273,7 +291,18 @@ main .conteiner-form:hover {
 
 @media (max-width: 800px) {
   .info-header .info-conteiner {
-    width: 62rem;
+    width: 340px;
+  }
+  main .conteiner .conteiner-about {
+    width: 80%;
+    height: 52vh;
+  }
+  .conteiner-about figure img {
+    width: 200px;
+    margin-right: 40px;
+  }
+  main .conteiner .conteiner-about .about {
+    height: 240px;
   }
   .img {
     width: 60rem;
@@ -304,25 +333,37 @@ main .conteiner-form:hover {
     font-size: 1.1rem;
   }
   .info-header .info-conteiner {
-    width: 43rem;
+    width: 320px;
+    height: 160px;
   }
   .info-header .info-conteiner .conteiner-img img {
     width: 12rem;
   }
   .info-header .info-conteiner .conteiner-nombre h1 {
-    font-size: 2rem;
+    font-size: 2.4rem;
   }
   .info-header .info-conteiner .conteiner-nombre h3 {
     font-size: 1.3rem;
   }
-  .info-header .info-conteiner .conteiner-about {
-    margin-left: 0rem;
+  main .conteiner .conteiner-about {
+    width: 80%;
+    height: 45vh;
   }
-  .info-header .info-conteiner .conteiner-about h2 {
+  .conteiner-about figure img {
+    width: 150px;
+    margin-right: 40px;
+  }
+  main .conteiner .conteiner-about .about {
+    height: 200px;
+  }
+  main .conteiner .conteiner-about h2 {
     font-size: 1.9rem;
   }
-  .info-header .info-conteiner .conteiner-about p {
+  main .conteiner .conteiner-about p {
     font-size: 1.3rem;
+  }
+  main .conteiner .conteiner-jobs h2 {
+    width: 80%;
   }
   .img {
     width: 40rem;
@@ -359,26 +400,29 @@ main .conteiner-form:hover {
 @media (max-width: 370px) {
   .info-header .info-conteiner {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 33rem;
-    height: 34rem;
-  }
-  .info-header .info-conteiner .conteiner-about:hover {
-    transform: translate(0%, 0%);
+    width: 280px;
+    height: 150px;
   }
   .info-header .info-conteiner .conteiner-nombre {
-    border-left: none;
-    border-top: 0.1rem solid #fff;
-    border-bottom: 0.1rem solid #fff;
     margin-top: 1rem;
     margin-bottom: 1rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
     width: 94%;
+    height: 115px;
   }
-  .info-header .info-conteiner .conteiner-about {
+  .info-header .info-conteiner .conteiner-nombre h1 {
+    font-size: 2rem;
+  }
+  .conteiner-about figure img {
+    width: 0px;
+    margin-right: 0px;
+  }
+  main .conteiner .conteiner-about .about {
+    height: 200px;
+    padding-left: 0px;
     border-left: none;
   }
   main .conteiner .conteiner-jobs h2 {
