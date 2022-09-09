@@ -416,6 +416,11 @@ main .conteiner-form:hover {
   .info-header .info-conteiner .conteiner-nombre h1 {
     font-size: 2rem;
   }
+  main .conteiner .conteiner-about {
+    width: 80%;
+    height: auto;
+    padding: 8px 15px;
+  }
   .conteiner-about figure img {
     width: 0px;
     margin-right: 0px;
