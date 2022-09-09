@@ -419,7 +419,7 @@ main .conteiner-form:hover {
   main .conteiner .conteiner-about {
     width: 80%;
     height: auto;
-    padding: 8px 15px;
+    padding: 15px 15px;
   }
   .conteiner-about figure img {
     width: 0px;
