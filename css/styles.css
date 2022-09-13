@@ -13,7 +13,7 @@ body {
   background-image: url("../img/fondoheader.png");
   background-size: cover;
   height: 80vh;
-  border-bottom: 1rem solid #1e2b38f1;
+  /* border-bottom: 1rem solid #1e2b38f1; */
 }
 .cabecera .menu {
   height: 10%;
@@ -86,7 +86,7 @@ body {
 }
 
 main {
-  background-image: url("../img/fondo.jpg");
+  background-image: url("../img/Rectangle\ 1.png");
   background-size: cover;
   padding-bottom: 3rem;
   display: flex;
@@ -151,8 +151,7 @@ main .conteiner .conteiner-jobs h2 {
 }
 main .conteiner .fila-img-1,
 main .conteiner .fila-img-2,
-main .conteiner .fila-img-3,
-main .conteiner .fila-img-4 {
+main .conteiner .fila-img-3 {
   display: flex;
   justify-content: center;
 }
