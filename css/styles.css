@@ -151,7 +151,8 @@ main .conteiner .conteiner-jobs h2 {
 }
 main .conteiner .fila-img-1,
 main .conteiner .fila-img-2,
-main .conteiner .fila-img-3 {
+main .conteiner .fila-img-3,
+main .conteiner .fila-img-4 {
   display: flex;
   justify-content: center;
 }

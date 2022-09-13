@@ -18,9 +18,9 @@
   <body>
     <header class="cabecera">
       <nav class="menu">
-        <a href="">About</a>
-        <a href="">Jobs</a>
-        <a href="">Contacts</a>
+        <a href="#about">About</a>
+        <a href="#jobs">Jobs</a>
+        <a href="#contacts">Contacts</a>
       </nav>
       <div class="info-header">
         <div class="info-conteiner">
@@ -35,7 +35,7 @@
       </div>
     </header>
     <main>
-      <div class="conteiner">
+      <div id="about" class="conteiner">
         <section>
           <div class="conteiner-about">
             <figure>
@@ -51,7 +51,7 @@
             </div>
           </div>
         </section>
-        <div class="conteiner-jobs">
+        <div id="jobs" class="conteiner-jobs">
           <h2>Jobs</h2>
         </div>
         <div class="fila-img-1">
@@ -87,13 +87,15 @@
             <figcaption class="imgDescripcion2">HTML-CSS</figcaption>
           </figure>
           <figure>
-            <img class="img" src="./img/codigoqr.png" alt="" />
+            <img class="img" src="./img/juego.png" alt="" />
             <figcaption class="imgDescripcion1">
-              <a target="_blank" href="https://hernan1122.github.io/Codigo-QR/"
-                >Code QR</a
+              <a
+                target="_blank"
+                href="https://hernan1122.github.io/practico-javascript-videogames/"
+                >Game "Zombi"</a
               >
             </figcaption>
-            <figcaption class="imgDescripcion2">HTML-CSS</figcaption>
+            <figcaption class="imgDescripcion2">HTML-CSS-JS</figcaption>
           </figure>
         </div>
         <div class="fila-img-3">
@@ -118,8 +120,19 @@
             <figcaption class="imgDescripcion2">HTML-CSS</figcaption>
           </figure>
         </div>
+        <div class="fila-img-4">
+          <figure>
+            <img class="img" src="./img/codigoqr.png" alt="" />
+            <figcaption class="imgDescripcion1">
+              <a target="_blank" href="https://hernan1122.github.io/Codigo-QR/"
+                >Code QR</a
+              >
+            </figcaption>
+            <figcaption class="imgDescripcion2">HTML-CSS</figcaption>
+          </figure>
+        </div>
       </div>
-      <div class="conteiner-form">
+      <div id="contacts" class="conteiner-form">
         <h2 class="parrafoContacts">Contacts</h2>
         <form action="" class="conteinerForm1">
           <label for="Name">
